@@ -1,0 +1,144 @@
+body {
+    font-family: "Merriweather";
+    padding: 0;
+    margin: 0;
+    background-color: #FCFFF5;
+}
+
+
+/*HERO*/
+
+.hero {
+    /* Sizing */
+    width: 100vw;
+    height: 90vh;
+    
+    /* Flexbox stuff */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* Text styles */
+    text-align: center;
+    color: #FCFFF5; 
+    
+    /* Background styles */
+    background-image: linear-gradient(rgba(66, 66, 66, 0.7),rgba(66, 66, 66, 0.7)), url("../images/background.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    border-bottom: 2px solid #FCFFF5;
+}
+
+.hero h1 {
+    /* Text styles */
+    font-size: 3em;
+    
+    /* Margins */
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+.hero p {
+    padding: 0 10%;
+}
+
+.hero .btn {
+    /* Positioning and sizing */
+    display: block;
+    width: 200px;
+    
+    /* Padding and margins */
+    padding: .5em;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #FCFFF5;
+    
+    /* Text styles */
+    color: #FCFFF5;
+    text-decoration: none;
+    font-size: 1.5em;
+    
+}
+
+.btn:hover {
+    -moz-transition: all .4s ease-in;
+    -o-transition: all .4s ease-in;
+    -webkit-transition: all .4s ease-in;
+    transition: all .4s ease-in;  
+}
+
+.btn:hover {
+    background-color: #FCFFF5;
+    color: #3E606F;
+}
+
+/*ART SECTION*/
+
+.description-paragraph {
+    padding: 0 10%;
+    font-weight: 300;
+    color: #193441;
+}
+
+.description-header {
+    padding: 0 10%;
+    color: #193441;
+}
+
+.art-section {
+    background-color: #FCFFF5;
+    text-align: center;
+}
+
+.img-container {
+    text-align: center;
+}
+
+.header-container {
+    text-align: center;
+}
+
+.art-image {
+    max-width: 50%;
+}
+
+/*ABOUT*/
+
+.about-img-container {
+    text-align: center;
+    margin-top: 2%;
+}
+
+.about-img {
+    max-width: 80%;
+}
+
+.about-content {
+    text-align: center;
+}
+
+.about-content p {
+    margin: 0 20% 2%;
+}
+
+.about-content p:last-child {
+    margin-bottom: 10%;
+}
+
+.about-content h4:last-child {
+    margin-bottom: 10%;
+}
+
+footer {
+    text-align: center;
+}
+
+footer p {
+    font-size: .7em;
+}
+
